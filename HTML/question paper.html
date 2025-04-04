@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>1. Leap Year Checker</h1>
+    <hr>
+    <b>Problem:</b>
+    <p>Write a method that takes a <b>year</b> and checks whether it’s a <b>leap year </b>or not.</p>
+    <b>Logic:</b>
+    <p>A year is considered a <b>leap year</b> if:</p>
+    <ul>
+        <li>It is divisible by <b>4</b>,</li>
+        <li>But <b>not</b> divisible by <b>100</b>,</li>
+        <li><b>Unless</b> it is also divisible by <b>400</b></li>
+    </ul>
+    <b>Examples:</b>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th>Input</th>
+            <th>Output</th>
+            <th>Reason</th>
+        </tr>
+        <tr>
+            <td>2000</td>
+            <td>Leap Year</td>
+            <td>Divisible by 400</td>
+        </tr>
+        <tr>
+            <td>1900</td>
+            <td>Not a Leap Year</td>
+            <td>Divisible by 100 but not 400</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Leap Year</td>
+            <td>Divisible by 4 and not divisible by 100</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Not a Leap Year</td>
+            <td>Not divisible by 4</td>
+        </tr>
+    </table>
+    <h1>2. Character Type Checker</h1>
+    <hr>
+    <b>Problem:</b>
+    <p>Accept a character input and check if it is:</p>
+    <ul>
+            <li>An <b>Uppercase Letter</b></li>
+            <li>A <b>Lowercase Letter</b></li>
+            <li>A <b>Digit</b></li>
+            <li>A <b>Special Character</b></li>
+    </ul>
+    <b>Logic:</b>
+    <p>Use ASCII value ranges::</p>
+    <ul>
+        <li>'A'-'Z' → Uppercaser</li>
+        <li>'a'-'z' → Lowercase</li>
+        <li>'0'-'9' → Digit</li>
+        <li>Anything else → Special character</li>
+    </ul>
+    <b>Examples:</b>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th><b>Input</b></th>
+            <th><b>Output</b></th>
+        </tr>
+        <tr>
+            <td>'A'</td>
+            <td>Uppercase Letter</td>
+        </tr>
+        <tr>
+            <td>'b'</td>
+            <td>Lowercase Letter</td>
+        </tr>
+        <tr>
+            <td>'7'	</td>
+            <td>Digit</td>
+        </tr>
+        <tr>
+            <td>'#'</td>
+            <td>Special Character</td>
+        </tr>
+    </table>
+    <h1>3. Simple Calculator (Switch Version)</h1>
+    <hr>
+    <b>Problem:</b>
+    <p>Create a method calculate(int a, int b, char op) to perform:</p>
+    <ul>
+            <li>Addition +</li>
+            <li>Subtraction -</li>
+            <li>Multiplication *</li>
+            <li>Division /</li>
+            <li>Modulo %</li>
+    </ul>
+    <b>Logic:</b>
+    <p>Use a switch(op) statement to handle operation choices.</p>
+    <b>Examples:</b>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th><b>Input</b></th>
+            <th><b>Output</b></th>
+        </tr>
+        <tr>
+            <td>10, 3, '*'</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>10, 5, '+'</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>20, 4, '/'</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>15, 4, '%'</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>20, 12, '-'</td>
+            <td>8</td>
+        </tr>
+
+    </table>
+    <h1>4. Grading System</h1>
+    <hr>
+    <b>Problem:</b>
+    <p>Accept marks between 0–100 and assign a grade using if-else.</p>
+    <b>Grade Scale:</b>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th><b>Marks Range</b></th>
+            <th><b>Grade</b></th>
+        </tr>
+        <tr>
+            <td>90-100</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>80-89</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>70-79</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>60-69</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>Below 60</td>
+            <td>F</td>
+        </tr>
+
+    </table>
+    <br>
+    <b>Examples:</b>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th><b>Input</b></th>
+            <th><b>Output</b></th>
+        </tr>
+        <tr>
+            <td>95</td>
+            <td>Grade A</td>
+        </tr>
+        <tr>
+            <td>85</td>
+            <td>Grade B</td>
+        </tr>
+        <tr>
+            <td>73</td>
+            <td>Grade C</td>
+        </tr>
+        <tr>
+            <td>61</td>
+            <td>Grade D</td>
+        </tr>
+        <tr>
+            <td>42</td>
+            <td>Grade F</td>
+        </tr>
+
+    </table>
+    <h1>5. Triangle Type Checker</h1>
+    <hr>
+    <b>Problem:</b>
+    <p>Accept 3 side lengths of a triangle and determine its type:</p>
+    <ul>
+        <li><b>Equilateral:</b> all sides equal</li>
+        <li><b>Isosceles:</b> any two sides equal</li>
+        <li><b>Scalene:</b> all sides different</li>
+    </ul>
+    <b>Examples:</b>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th><b>Input</b></th>
+            <th><b>Output</b></th>
+        </tr>
+        <tr>
+            <td>5, 5, 5</td>
+            <td>Equilateral triangle</td>
+        </tr>
+        <tr>
+            <td>5, 5, 7</td>
+            <td>Isosceles triangle</td>
+        </tr>
+        <tr>
+            <td>4, 5, 6</td>
+            <td>Scalene triangle</td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
