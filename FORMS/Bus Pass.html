@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <center>
+        <img src="./Images of Bus Pass/Screenshot 2025-04-08 221651.png"
+            alt="TELANGANA STATE ROAD TRANSPORT CORPORATION " width="1100" height="180">
+    </center>
+    <form action="./Bus Pass Main Page.html">
+        <fieldset>
+
+            <legend><b>Applicant Details</b></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="guardian_name">Father's/Guardian's Name:</label>
+            <input type="text" id="guardian_name" name="guardian_name" required><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br><br>
+            <label for="age_day">Age As on:</label>
+            <input type="number" id="age_day" name="day" min="1" max="31">
+            <label>Day</label>
+            <input type="number" id="age_month" name="month" min="1" max="31">
+            <label>Month</label> 
+            <input type="number" id="age_year" name="year" min="1" max="31"> 
+            <label>Year</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="aadhaar_no">Aadhaar No:</label>
+            <input type="text" id="aadhaar_no" name="aadhaar_no" required><br><br>
+            <label for="whatsapp_no">WhatsApp No:</label>
+            <input type="tel" id="whatsapp_no" name="whatsapp_no" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email">E-mail Id:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" required><br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend><b>Residential Address Details</b></legend>
+            <label for="address">Applicant's Address:</label>
+            <textarea id="address" name="address" rows="5" required></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="district">District:</label>
+            <select name="district" id="district">
+                <option value="" selected disabled>-select-</option>
+                <option value="HYDERABAD">HYDERABAD</option>
+                <option value="RANGA REDDY">RANGA REDDY</option>
+                <option value="MEDAK">MEDAK</option>
+                <option value="WARANGAL">WARANGAL</option>
+            </select><br><br>
+            <label for="mandal">Mandal:</label>
+            <select name="mandal" id="mandal">
+                <option value="" selected disabled>-select-</option>
+                <option value="NAMPALLY">NAMPALLY</option>
+                <option value="AMEERPET">AMEERPET</option>
+                <option value="SECUNDERABAD">SECUNDERABAD</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="village">Village:</label>
+            <select name="village" id="village">
+                <option value="" selected disabled>-select-</option>
+                <option value="AMEERPET">AMEERPET</option>
+                <option value="BAHLOOKHANGUDA">BAHLOOKHANGUDA</option>
+                <option value="SOMAJIGUDA">SOMAJIGUDA</option>
+            </select><br><br>
+            <label for="pincode">Pincode:</label>
+            <input type="text" id="pincode" name="pincode" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Pass Type Details</b></legend>
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="" selected disabled>-select-</option>
+                <option value="HYDERABAD">HYDERABAD</option>
+                <option value="RANGA REDDY">RANGA REDDY</option>
+                <option value="MEDAK">MEDAK</option>
+                <option value="WARANGAL">WARANGAL</option>
+            </select><br><br>
+            <label for="pass_type">Pass Type:</label>
+            <select name="pass_type" id="pass_type">
+                <option value="" selected disabled>-select-</option>
+                <option value="GREATER PASS">GREATER PASS</option>
+                <option value="GENERAL ORDINARY ROUTE PASS MTLY">GENERAL ORDINARY ROUTE PASS MTLY</option>
+                <option value="GENERAL METRO EXPRESS ROUTE PASS MTLY">GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+                <option value="ORDINARY PASS">ORDINARY PASS</option>
+                <option value="METRO EXPRESS PASS">METRO EXPRESS PASS</option>
+                <option value="METRO DELUXE PASS">METRO DELUXE PASS</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><b>Mode of Payment & Pass Collection</b></legend>
+            <label for="payment_mode">Payment Mode:</label>
+            <select id="payment_mode" name="payment_mode">
+                <option value="" selected disabled>Select Payment Mode</option>
+                <option value="Payment at Counter">Payment at Counter</option>
+            </select><br><br>
+            <label for="pass_delivery_mode">Pass Delivery Mode:</label>
+            <select id="pass_delivery_mode" name="pass_delivery_mode">
+                <option value="" selected disabled>Select Pass Delivery Mode</option>
+                <option value="At Counter">At Counter</option>
+            </select><br><br>
+            <label for="pass_collection_center">Center at which you want to Collect Pass:</label>
+            <select id="pass_collection_center" name="pass_collection_center">
+                <option value="" selected disabled>-select-</option>
+                <option value="RTC ABIDS -- HYD [ 09/04/2025 ]">RTC ABIDS -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC AFZALGUNJ -- HYD [ 09/04/2025 ]">RTC AFZALGUNJ -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC AIRPORT -- HYD [ 09/04/2025 ]">RTC AIRPORT -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC ARAMGHAR -- HYD [ 09/04/2025 ]">RTC ARAMGHAR -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC BALA NAGAR -- HYD [ 09/04/2025 ]">RTC BALA NAGAR -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC BORABANDA -- HYD [ 09/04/2025 ]">RTC BORABANDA -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC CBS -- HYD [ 09/04/2025 ]">RTC CBS -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC CHARMINAR -- HYD [ 09/04/2025 ]">RTC CHARMINAR -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC DILSUKHNAGAR -- HYD [ 09/04/2025 ]">RTC DILSUKHNAGAR -- HYD [ 09/04/2025 ]</option>
+                <option value="RTC ECIL -- HYD [ 09/04/2025 ]">RTC ECIL -- HYD [ 09/04/2025 ]</option>
+            </select><br><br>
+        </fieldset><br>
+        <center>
+            <img src="./Images of Bus Pass/Screenshot 2025-04-09 000849.png" alt="CAPTCHA"><br><br>
+            <input type="text"><br><br>
+            <input type="submit" value="SUBMIT">
+        </center> <br><br>
+    </form>
+</body>
+
+</html>
