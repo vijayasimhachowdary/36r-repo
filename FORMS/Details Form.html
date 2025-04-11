@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1><b>Applicant Details:</b></h1>
+        <hr>
+        <label for="Mr/Mrs/Miss/Ms/Other"><b>Mr/Mrs/Miss/Ms/Other</b></label> <br>
+        <input type="text" id="Mr/Mrs/Miss/Ms/Other" name="Mr/Mrs/Miss/Ms/Other"><br><br>
+        <label for="Full Name"><b>Full Name</b></label><br>
+        <input type="text" id="Full Name" name="Full Name">
+        <input type="text" id="Full Name" name="Full Name">
+        <input type="text" id="Full Name" name="Full Name">
+        <pre>   First Name               Middle Name            Last Name</pre>
+        <label for="Gender"><b>Gender</b></label><br>
+        <input type="radio" id="Gender" name="Gender">male <br>
+        <input type="radio" id="Gender" name="Gender">female <br><br>
+        <label for="Birth Date"><b>Birth Date</b></label><br>
+        <input type="date" id="Birth Date" name="Birth Date"><br>
+        <pre>Date</pre>
+        <label for="Nationality"><b>Nationality</b></label><br>
+        <input type="text" id="Nationality" name="Nationality"><br><br>
+        <label for="Country of birth"><b>Country of birth</b></label><br>
+        <input type="text" id="Country of birth" name="Country of birth"><br><br>
+        <label for="Have you been resident in the UK/other EU member state for the last 3 years?"><b>Have you been
+                resident
+                in the UK/other EU member state for the last 3 years?</b></label><br>
+        <select name="Have you been resident in the UK/other EU member state for the last 3 years?"
+            id="Have you been resident in the UK/other EU member state for the last 3 years?">
+            <option value="" disabled selected>please select</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select><br><br>
+        <label for="Mobile Number"><b>Mobile Number</b></label><br>
+        <input type="tel" id="Mobile Number" name="Mobile Number" placeholder="(000) 000-0000"><br>
+        <pre>Please enter a valid phone number.</pre><br>
+        <label for="Telephone Number"><b>Telephone Number</b></label><br>
+        <input type="tel" id="Telephone Number" name="Telephone Number" placeholder="(000) 000-0000"><br>
+        <pre>Please enter a valid phone number.</pre><br>
+        <label for="Present Address"><b>Present Address</b></label><br>
+        <input type="text" id="Present Address" name="Present Address"> <br>
+        <pre>Street Address</pre>
+        <input type="text" id="Present Address" name="Present Address"> <br>
+        <pre>Street Address Line 2</pre>
+        <input type="text" id="Present Address" name="Present Address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="Present Address" name="Present Address"> <br>
+        <pre>       City                State / Province</pre>
+        <input type="text" id="Present Address" name="Present Address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="Present Address" id="Present Address">
+            <option value="India" selected>India</option>
+            <option value="Iran">Iran</option>
+            <option value="Us">Us</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+        </select>
+        <pre>Postal / Zip Code          Country</pre><br><br>
+        <label for="Permanent Address"><b>Permanent Address</b></label><br>
+        <input type="text" id="Permanent Address" name="Permanent Address"> <br>
+        <pre>Street Address</pre>
+        <input type="text" id="Permanent Address" name="Permanent Address"> <br>
+        <pre>Street Address Line 2</pre>
+        <input type="text" id="Permanent Address" name="Permanent Address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="Permanent Address" name="Permanent Address"> <br>
+        <pre>       City                State / Province</pre>
+        <input type="text" id="Permanent Address" name="Permanent Address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="Permanent Address" id="Permanent Address">
+            <option value="India" selected>India</option>
+            <option value="Iran">Iran</option>
+            <option value="Us">Us</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+        </select>
+        <pre>Postal / Zip Code          Country</pre><br><br>
+        <label for="E-mail"><b>E-mail</b></label><br>
+        <input type="email" id="E-mail" name="E-mail" placeholder="ex:myname@example.com">
+        <pre>example@example.com</pre>
+        <label for="Person to contact in case of emergency:"><b>Person to contact in case of
+                emergency:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Relationship"><b>Relationship</b></label><br>
+        <input type="text" id="Person to contact in case of emergency:"
+            name="Person to contact in case of emergency:">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="Relationship" name="Relationship">
+        <pre>Parent/Guardian                          ex. Father, Mother, etc.</pre>
+        <label for="Address of person to contact in case of emergency"><b>Address of person to contact in case of
+                emergency</b></label><br>
+        <input type="text" id="Address of person to contact in case of emergency"
+            name="Address of person to contact in case of emergency"><br><br>
+        <label for="Course of Study Applied for:"><b>Course of Study Applied for:</b></label><br>
+        <hr>
+        <label for="Name of Course:"><b>Name of Course:</b></label><br>
+        <select name="Name of Course:" id="Name of Course:">
+            <option value="" selected disabled>Please select the course</option>
+            <option value="Edexcel HND Computing and System Development">Edexcel HND Computing and System Development
+            </option>
+            <option value="Edexcel Int HND Tourism and Hospitality Management">Edexcel Int HND Tourism and Hospitality
+                Management</option>
+            <option value="Edexcel HND in Business (Management Pathway)">Edexcel HND in Business (Management Pathway)
+            </option>
+            <option value="British Computer Society Certificate in IT">British Computer Society Certificate in IT
+            </option>
+        </select><br><br><br>
+        <label for="Mode of study:"><b>Mode of study:</b></label>
+        <hr>
+        <input type="checkbox" id="Mode of study:" name="Mode of study:"> Full-time<br>
+        <input type="checkbox" id="Mode of study:" name="Mode of study:"> Part-time<br>
+        <input type="checkbox" id="Mode of study:" name="Mode of study:"> Distance Learning<br><br>
+        <label for="Proposed start date(Month,Year):"><b>Proposed start date(Month,Year):</b></label><br>
+        <input type="text" id="Proposed start date(Month,Year):" name="Proposed start date(Month,Year):"><br><br>
+        <label for="If you are applying for advanced entry(APL) please indicate proposed year"><b>If you are applying
+                for
+                advanced entry(APL) please indicate proposed year</b></label><br>
+        <input type="checkbox" id="If you are applying for advanced entry(APL) please indicate proposed year"
+            name="If you are applying for advanced entry(APL) please indicate proposed year">Yr1
+        <input type="checkbox" id="If you are applying for advanced entry(APL) please indicate proposed year"
+            name="If you are applying for advanced entry(APL) please indicate proposed year">Yr2 <br>
+        <input type="checkbox" id="If you are applying for advanced entry(APL) please indicate proposed year"
+            name="If you are applying for advanced entry(APL) please indicate proposed year">Yr3
+        <input type="checkbox" id="If you are applying for advanced entry(APL) please indicate proposed year"
+            name="If you are applying for advanced entry(APL) please indicate proposed year">Yr4 <br>
+        <input type="checkbox" id="If you are applying for advanced entry(APL) please indicate proposed year"
+            name="If you are applying for advanced entry(APL) please indicate proposed year">Yr5
+        <input type="checkbox" id="If you are applying for advanced entry(APL) please indicate proposed year"
+            name="If you are applying for advanced entry(APL) please indicate proposed year">Yr6 <br><br>
+        <label for="Fees Information:"><b>Fees Information:</b></label><br>
+        You must give details of who be paying your fees.
+        <hr>
+        <label for="Who is expected to pay your fees?"><b>Who is expected to pay your fees?</b></label><br>
+        <input type="radio" id="Who is expected to pay your fees?" name="Who is expected to pay your fees?">Yourself
+        <br>
+        <input type="radio" id="Who is expected to pay your fees?" name="Who is expected to pay your fees?">Sponsor
+        <br><br>
+        <label for="Name and address to which invoice is to be sent(if different from above)"><b>Name and address to
+                which
+                invoice is to be sent(if different from above)</b></label><br>
+        <input type="text" id="Name and address to which invoice is to be sent(if different from above)"
+            name="Name and address to which invoice is to be sent(if different from above)"><br><br>
+        <label for="Education:"><b>Education:</b></label><br>
+        Please give details of all Schools/Colleges/Universities attended. <br>
+        <hr>
+        Secondary/Further/Higher Education <br>
+        <table border="1" cellspacing="5" cellpadding="5" width="5" height="5">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>Name of secondary School/College/University</td>
+                <td>Address</td>
+                <td>Dates Attended From(mm/yy)To(mm/yy)</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table><br><br>
+        <label for="Education Qualifications:"><b>Education Qualifications:</b></label>
+        <hr>
+        Educational Qualifications <br>
+        <table border="1" cellspacing="5" cellpadding="5" width="5" height="5">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>Subject </td>
+                <td>Level(eg IGCSE, IB, BA, MSc)</td>
+                <td>Grade</td>
+                <td>Date(mm/yy)</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table><br><br>
+        Educational Language Qualifications <br>
+        <table border="1" cellspacing="5" cellpadding="5" width="5" height="5">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>Title of qualification</td>
+                <td>Awarding Body(and verification ID for TOEFL and IELTS)</td>
+                <td>Grade(including scores for individual skills if applicable)</td>
+                <td>Date(mm/yy)</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table><br><br>
+        Qualifications currently being studies(award pending) <br>
+        <table border="1" cellspacing="5" cellpadding="5" width="5" height="5">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>Subject</td>
+                <td>Level(eg IGCSE, IB, BA, MSc)</td>
+                <td>Date(mm/yy)</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table><br><br>
+        <label for="Have you previously studied in the UK?"><b>Have you previously studied in the UK?</b></label><br>
+        <input type="radio" id="Have you previously studied in the UK?"
+            name="Have you previously studied in the UK?">Yes<br>
+        <input type="radio" id="Have you previously studied in the UK?"
+            name="Have you previously studied in the UK?">No<br><br>
+        <label
+            for="Are you intending to undertake English Language studies with ZCBC College before commencing your degree programme?"><b>Are
+                you intending to undertake English Language studies with ZCBC College before commencing your degree
+                programme?</b></label><br>
+        <input type="radio"
+            id="Are you intending to undertake English Language studies with ZCBC College before commencing your degree programme?"
+            name="Are you intending to undertake English Language studies with ZCBC College before commencing your degree programme?">Yes<br>
+        <input type="radio"
+            id="Are you intending to undertake English Language studies with ZCBC College before commencing your degree programme?"
+            name="Are you intending to undertake English Language studies with ZCBC College before commencing your degree programme?">No<br><br>
+        <label for="Employment:"><b>Employment:</b></label><br>
+        Please give details of curent and previos employers,together with dates. <br>
+        <hr>
+        <label for="Type a question"><b>Type a question</b></label>
+        <table border="1" cellspacing="5" cellpadding="5" width="5" height="5">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>Organization</td>
+                <td>Position held and summary of responsibilities</td>
+                <td>Date From(mm/yy)TO (mm/yy)</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table><br><br>
+        <b>Statement In Support Of Application: </b><br>
+        This section must be completed.You should state why you want to undertake this course,any relevant
+        experience,skills and attributes,and your long terms goals. <br>
+        <hr>
+        <label for="Type a question"><b>Type a question</b></label><br>
+        <textarea name="Type a question" id="Type a question" rows="10" cols="100"></textarea><br><br>
+        <b>Reference: </b><br>
+        All aplicants must provide one reference.The referee should be a course tutor if you have been in education
+        within the last two years or your current or most recent employer.<br>
+        <hr>
+        <label for="Name of referee 1"><b>Name of referee 1</b></label><br>
+        <input type="text" id="Name of referee 1" name="Name of referee 1"><br><br>
+        <label for="Organization"><b>Organization</b></label><br>
+        <input type="text" id="Organization" name="Organization"><br><br>
+        <label for="Relationship to you"><b>Relationship to you</b></label><br>
+        <input type="text" id="Relationship to you" name="Relationship to you"><br><br>
+        <label for="Reference enclosed/Reference to follow"><b>Reference enclosed/Reference to follow</b></label><br>
+        <input type="text" id="Reference enclosed/Reference to follow"
+            name="Reference enclosed/Reference to follow"><br><br>
+        <label for="Name of referee 2"><b>Name of referee 2</b></label><br>
+        <input type="text" id="Name of referee 2" name="Name of referee 2"><br><br>
+        <label for="Organization"><b>Organization</b></label><br>
+        <input type="text" id="Organization" name="Organization"><br><br>
+        <label for="Relationship to you"><b>Relationship to you</b></label><br>
+        <input type="text" id="Relationship to you" name="Relationship to you"><br><br>
+        <label for="Reference enclosed/Reference to follow"><b>Reference enclosed/Reference to follow</b></label><br>
+        <input type="text" id="Reference enclosed/Reference to follow"
+            name="Reference enclosed/Reference to follow"><br><br>
+        <label for="Please tell us where you found out about this course"><b>Please tell us where you found out about
+                this
+                course</b></label><br>
+        <input type="text" id="Please tell us where you found out about this course"
+            name="Please tell us where you found out about this course"><br><br>
+        <b>Support Requirements:</b><br>
+        Please complete this section if you have any learning support/mobillity requirements.<br>
+        <hr>
+        <label for="Do you have a disability, medical conditon or require learning support?"><b>Do you have a
+                disability,
+                medical conditon or require learning support?</b></label><br>
+        <input type="checkbox" id="Do you have a disability, medical conditon or require learning support?"
+            name="Do you have a disability, medical conditon or require learning support?">Yes<br>
+        <input type="checkbox" id="Do you have a disability, medical conditon or require learning support?"
+            name="Do you have a disability, medical conditon or require learning support?">No<br><br>
+        If yes,please name and give brief details:<br>
+        <textarea name="If yes,please name and give brief details:" id="If yes,please name and give brief details:"
+            rows="10" cols="100"></textarea><br><br>
+        <b>Declarations: </b><br>
+        <hr>
+        <label for="Do you have any unspent criminal convictions?"><b>Do you have any unspent criminal
+                convictions?</b></label><br>
+        <input type="checkbox" id="Do you have any unspent criminal convictions?"
+            name="Do you have any unspent criminal convictions?">Yes<br>
+        <input type="checkbox" id="Do you have any unspent criminal convictions?"
+            name="Do you have any unspent criminal convictions?">No<br><br>
+        <p>
+            A criminal record will not necessarily be a bar to obtaining a place at ZCBC College.
+            <br><br>
+            A satisfactory Criminal Records Bureau disclosure will be required for successful applicants to courses
+            which include placements where students work with children or vulnerable adults.
+        </p>
+        <b>Data Protection Act 1988</b> <br>
+        <p>
+            I agree to the University processing pesonal data contained in this form or other data which the University
+            may obtain from other people. I agree to the processing of such data for any purposes connected with my
+            studies or my health and safety whilst on the premises or for any legitimate reason including communication
+            with me following the completion of my studies.
+            <br><br>
+            In addition, I agree to the University processing personal data described as ''Sensitive Data'' within the
+            meaning of the Data Protection Act 1988, such processing to be undertaken for any purposes as indicated in
+            the declaration above.
+            <br><br>
+            If my employer/sponsor is supporting my studies by paying my fess/allowing me study time I agree to my
+            employer/sponsor being informed of the progress of my application and of my studies if I am accepted onto
+            the course.
+        </p>
+        <b>
+            Agent Referral
+            <br><br>
+            To be completed if applying with the assistance of an overseas recruitment agent</b>
+        <p>
+            I confirm that I give the following ZCBC Recruitment Partner authorisation to discuss my application with
+            staff at ZCBC College,and receive correspondence from ZCBC College on my behalf.
+        </p>
+        <label for="Company"><b>Company</b></label><br>
+        <input type="text" id="Company" name="Company"><br><br>
+        <label for="Contact Person"><b>Contact Person</b></label><br>
+        <input type="text" id="Contact Person" name="Contact Person"><br><br>
+        <label for="e-mail"><b>E-mail</b></label><br>
+        <input type="email" id="e-mail" name="e-mail" placeholder="ex:myname@example.com">
+        <pre>example@example.com</pre>
+        <label for="Telephone No"><b>Telephone Number</b></label><br>
+        <input type="tel" id="Telephone No" name="Telephone No" placeholder="(000) 000-0000"><br>
+        <p><b>Declaration</b>
+            <br><br>
+            I certify that, to the best of my belief, the information I have provided is complete and true.
+        </p>
+        <label for="Signature of Applicant"><b>Signature of Applicant</b></label> <br>
+        <textarea name="Signature of Applicant" id="Signature of Applicant" rows="7" cols="30"></textarea><br>
+        <a
+            href="https://www.jotform.com/products/sign/?utm_source=sign_cardform&utm_content=form&utm_medium=button&utm_campaign=sign_form_integration">Powered
+            by Jotform Sign</a>
+        <button>clear</button><br><br>
+        <label for="Date"><b>Date</b></label><br>
+        <input type="date" id="Date" name="Date"><br>
+        <pre>Date</pre>
+        <hr>
+        <center>
+            <button>Print Form</button>
+            <button>Submit</button>
+        </center>
+        <hr>
+        <button>Clear Form</button>
+    </form>
+
+
+</body>
+
+</html>
