@@ -1,0 +1,38 @@
+.maincontainer1 {
+    margin-top: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sub {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.maincontainer2 {
+    display: inline-flex;
+}
+
+.container2_1 {
+    background-color: green;
+    border-bottom-left-radius: 5px;
+    margin-left: 430px;
+    font-size: 20px;
+    gap: 30px;
+    padding: 10px;
+}
+
+.container2_2 {
+    background-color: red;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    gap: 20px;
+    padding: 10px;
+}
