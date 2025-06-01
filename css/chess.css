@@ -1,0 +1,114 @@
+/* SHORT CODE */
+/* html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.sub {
+    display: flex;
+}
+
+.sub div {
+    height: 70px;
+    width: 70px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.sub:nth-child(odd) div:nth-child(even),
+.sub:nth-child(even) div:nth-child(odd) {
+    background-color: darkgray;
+    color: black;
+} */
+
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    display: flex;
+
+}
+
+.container div div {
+    display: flex;
+    height: 70px;
+    width: 70px;
+}
+
+.sub div {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub1 div:nth-child(even) {
+    background-color: darkgray;
+    color: black
+}
+
+.sub2 div:nth-child(odd) {
+    background-color: darkgray;
+    color: black
+}
+
+.sub3 div:nth-child(even) {
+    background-color: darkgray;
+}
+
+.sub4 div:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.sub5 div:nth-child(even) {
+    background-color: darkgray;
+}
+
+.sub6 div:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.sub7 div:nth-child(even) {
+    background-color: darkgray;
+    color: black
+}
+
+.sub8 div:nth-child(odd) {
+    background-color: darkgray;
+    color: black
+}
